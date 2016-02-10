@@ -1,0 +1,20 @@
+[0m[[0minfo[0m] [0m[32mMiniDatabase2Spec:[0m[0m
+[0m[[0minfo[0m] [0m[32mmap2[0m[0m
+[0m[[0minfo[0m] [0m[32m- should succeed for two Success values[0m[0m
+[0m[[0minfo[0m] [0m[32m- should fail if any Failures[0m[0m
+[0m[[0minfo[0m] [0m[32mmap3[0m[0m
+[0m[[0minfo[0m] [0m[32m- should succeed for two Some values[0m[0m
+[0m[[0minfo[0m] [0m[32m- should fail if any None values[0m[0m
+[0m[[0minfo[0m] [0m[32m- should fail if any Failures[0m[0m
+[0m[[0minfo[0m] [0m[32mHeight[0m[0m
+[0m[[0minfo[0m] [0m[32m- should succeed 6 ft 5 in[0m[0m
+[0m[[0minfo[0m] [0m[32m- should fail 6 ft five in[0m[0m
+[0m[[0minfo[0m] [0m[32m- should succeed 6' 5"[0m[0m
+[0m[[0minfo[0m] [0m[32m- should fail to parse 6'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should succeed: equal 77 inches and be considered tall[0m[0m
+[0m[[0minfo[0m] [0m[32mName[0m[0m
+[0m[[0minfo[0m] [0m[32m- should succeed: Tom Brady[0m[0m
+[0m[[0minfo[0m] [0m[32m- should succeed: Thomas E. P. "Tom" Brady[0m[0m
+[0m[[0minfo[0m] [0m[32mEntry[0m[0m
+[0m[[0minfo[0m] [0m[32m- should succeed: Thomas E. P. "Tom" Brady, etc.[0m[0m
+[0m[[0minfo[0m] [0m[32m- should fail: Thomas E. P. "Tom" Brady[0m[0m
