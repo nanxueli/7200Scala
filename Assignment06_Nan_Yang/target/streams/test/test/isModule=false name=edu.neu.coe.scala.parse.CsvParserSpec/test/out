@@ -1,0 +1,30 @@
+[0m[[0minfo[0m] [0m[32mCsvParserSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mCsvParser()[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse "x" as Success(List("x"))[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse "x,y" as Success(List("x,y"))[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse "x,y" as Success(List("x","y")[0m[0m
+[0m[[0minfo[0m] [0m[32m"CsvParser("|")"[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse "|" as Success(List("|"))[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse x,y as Success(List("x,y"))[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse x,y as Success(List("x","y")[0m[0m
+[0m[[0minfo[0m] [0m[32m"CsvParser("|","'")"[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse '|' as Success(List("|"))[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse x,y as Success(List("x,y"))[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse x,y as Success(List("x","y")[0m[0m
+[0m[[0minfo[0m] [0m[32mCsvParser.parseElem[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse 1 as 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse 1.0 as 1.0[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse true as true[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse false as false[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse yes as yes[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse no as false[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse T as true[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse "1" as "1"[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse 2016-03-08 as datetime[0m[0m
+[0m[[0minfo[0m] [0m[32mcustom element parser[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse 1 as '1'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse 1.0 as '1.0'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse true as 'true'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should parse "1" as '"1"'[0m[0m
+[0m[[0minfo[0m] [0m[32mCsvParser.parseDate[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work[0m[0m

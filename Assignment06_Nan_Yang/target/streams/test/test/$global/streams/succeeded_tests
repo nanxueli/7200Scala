@@ -1,0 +1,5 @@
+#Successful Tests
+#Fri Mar 18 02:01:03 EDT 2016
+edu.neu.coe.scala.TrialSpec=1458280863852
+edu.neu.coe.scala.parse.CsvParserSpec=1458280863940
+edu.neu.coe.scala.parse.ProductStreamSpec=1458280863980

@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0m[32mTrialSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mFirst[0m[0m
+[0m[[0minfo[0m] [0m[32m- should transform "2" into 2[0m[0m
+[0m[[0minfo[0m] [0m[32mFirst with :|[0m[0m
+[0m[[0minfo[0m] [0m[32m- should transform "2" into 2 and "2.0" into 2.0[0m[0m
+[0m[[0minfo[0m] [0m[32mFirst with :| and :|[0m[0m
+[0m[[0minfo[0m] [0m[32m- should transform "2" into 2, "2.0" into 2.0, and "true" into true[0m[0m
+[0m[[0minfo[0m] [0m[32mIdentity with :||[0m[0m
+[0m[[0minfo[0m] [0m[32m- should transform "2" into 2, "2.0" into 2.0, and "true" into true[0m[0m
+[0m[[0minfo[0m] [0m[32m- should transform anything into 1[0m[0m
+[0m[[0minfo[0m] [0m[32mCurriedTrial[0m[0m
+[0m[[0minfo[0m] [0m[32m- should convert 2 into 5[0m[0m
+[0m[[0minfo[0m] [0m[32mCurriedSequence[0m[0m
+[0m[[0minfo[0m] [0m[32m- should transform anything into 1[0m[0m
+[0m[[0minfo[0m] [0m[32mIdentity[0m[0m
+[0m[[0minfo[0m] [0m[32m- should fail appropriately, regardless of input[0m[0m
+[0m[[0minfo[0m] [0m[32m- should combine with trial function to be equivalent of First[0m[0m

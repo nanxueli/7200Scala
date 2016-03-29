@@ -1,0 +1,23 @@
+[0m[[0minfo[0m] [0m[32mProductStreamSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32m"Hello", "World!"[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be (String) stream via CSV[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be (String) stream via TupleStream[0m[0m
+[0m[[0minfo[0m] [0m[32m- should convert to list properly[0m[0m
+[0m[[0minfo[0m] [0m[32m- should convert to map properly[0m[0m
+[0m[[0minfo[0m] [0m[32m- should have column x of type String[0m[0m
+[0m[[0minfo[0m] [0m[32m"3,5", "8,13"[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be (Int,Int) stream[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be (String,String) stream via TupleStream[0m[0m
+[0m[[0minfo[0m] [0m[32m- should map into (Int,Int) via TupleStream[0m[0m
+[0m[[0minfo[0m] [0m[32m- should have column y of type Int[0m[0m
+[0m[[0minfo[0m] [0m[32m- should convert to map properly[0m[0m
+[0m[[0minfo[0m] [0m[32m- should map into (Double,Double) properly[0m[0m
+[0m[[0minfo[0m] [0m[32m- should convert into maps properly[0m[0m
+[0m[[0minfo[0m] [0m[32m"3,5.0", "8,13.5"[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be (Int,Double) stream[0m[0m
+[0m[[0minfo[0m] [0m[32m"milestone 1, 2016-03-08", "milestone 2, 2016-03-15"[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be (String,Datetime) stream[0m[0m
+[0m[[0minfo[0m] [0m[32msample.csv[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be (String,Int) stream[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be (String,Int) stream using File[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be (String,Int) stream using URI[0m[0m
